@@ -63,7 +63,3 @@ class MazeSolution:
         return float("inf")
 
 
-solution = MazeSolution()
-testgrid1 = [[0, 0, 0, 0, 1], [0, 1, 0, 1, 1], [0, 0, 1, 1, 1], [1, 1, 0, 1, 0]]
-
-print(solution.handle(testgrid1))
